@@ -1,5 +1,7 @@
 
 import java.util.Scanner;
+import java.is.FileReader;
+import java.is.FileWriter;
 
 public static int eliminaVettore(int[] v, int n, int ie) {
     int i, n2;
@@ -50,16 +52,30 @@ public static int eliminaVettore(int[] v, int n, int ie) {
         
         return iTrovato;
     }
-    public static int LeggiVettore(int[] v, int n, string nFile) {
-        int i;
-        i=0:
-        return n;
+    public static int LeggiVettore(int[] v, string nFile) {
+        int n,i;
+        n=integer.parseint(import_nextline());
+        i=0;
+        while (i<N) {
+            V[i]=import.file.nextline();
+            ++i;
+        }
+        inputfile.close();
+
     }
 
-    public static int SalvaVettore(int[] v, int n, string nFile) {
-        int i;
-        i=0:
-        return n;
+    public static int SalvaVettore(int[] v, string nFile) {
+        int n,i;
+        n=integer.parseint(import_nextline());
+        i=0;
+        while (i<N) {
+            V[i]=import.file.nextline();
+            ++i;
+        }
+        inputfile.close();
+
+    }
+
     }
 
 
@@ -69,6 +85,9 @@ class Esercizio {
     public static void main(String args[])
     {
         Scanner in = new Scanner( System.in );
+        Scanner file = new Scanner( System.file);
+        Scanner import file=new Scanner(file);
+
         int N, i, Y, e;
         Np=leggiVettore(P,Np,"Prestiti.txt");
         Nv=LeggiVettore(V,Nv,"Libri.txt");
